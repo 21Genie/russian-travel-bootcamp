@@ -1,5 +1,5 @@
 .places__website {
-  width: calc(100vw (16px * 2));
+  width: calc(100vw - (16px * 2));
 }
 
 @media (min-width: 768px) {
