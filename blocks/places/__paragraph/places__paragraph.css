@@ -1,0 +1,32 @@
+.places__paragraph {
+  margin: 0 auto;
+  width: calc(100vw - (16px + 16px));
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .places__paragraph {
+    width: 352px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places__paragraph {
+    margin: 0;
+    padding: 0;
+    width: 456px;
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places__paragraph {
+    width: 484px
+  }
+}

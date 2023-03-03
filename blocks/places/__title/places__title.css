@@ -1,0 +1,35 @@
+.places__title {
+  margin: 0 auto;
+  width: calc(100vw - (16px + 16px));
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .places__title {
+    grid-row: 1/1;
+    grid-column: 1/1;
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places__title {
+    font-size: 72px;
+    line-height: 76px;
+    width: 440px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places__title {
+    width: 460px;
+  }
+}

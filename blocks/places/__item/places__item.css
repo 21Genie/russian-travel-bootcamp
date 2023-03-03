@@ -1,0 +1,26 @@
+.places__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .places__item {
+    display: grid;
+    grid-template-columns: 47% 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places__item {
+    gap: 48px 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places__item {
+    gap: 48px 40px;
+  }
+}
