@@ -10,19 +10,19 @@
     display: flex;
     flex-direction: column;
     align-self: start;
-    width: 352px
+    width: 352px;
   }
 }
 
 @media (min-width: 1024px) {
   .places__text {
     gap: 26px;
-    width: 456px
+    width: 456px;
   }
 }
 
 @media (min-width: 1280px) {
   .places__text {
-    width: 484px
+    width: 484px;
   }
 }
