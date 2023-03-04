@@ -1,5 +1,6 @@
 .places__img {
   width: 100vw;
+  margin-left: -16px;
 }
 
 @media (min-width: 768px) {

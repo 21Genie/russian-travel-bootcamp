@@ -1,5 +1,8 @@
 .places {
+  display: flex;
+  flex-direction: column;
   padding-top: 65px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -13,3 +16,10 @@
     padding-top: 92px;
   }
 }
+
+@media (min-width: 1280px) {
+  .places {
+    align-self: center;
+  }
+}
+

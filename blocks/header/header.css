@@ -2,26 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 16px 0 16px;
+  padding-top: 16px;
 }
 
 @media (min-width: 768px) {
   .header {
-    gap: 0 467px;
-    padding: 28px 24px 0 24px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .header {
-    gap: 0 675px;
-    padding: 28px 48px 0 48px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .header {
-    gap: 0 931px;
-    padding: 28px 48px 0 48px;
+    padding-top: 28px;
   }
 }

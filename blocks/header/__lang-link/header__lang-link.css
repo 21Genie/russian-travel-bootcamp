@@ -13,17 +13,3 @@
     line-height: 28px;
   }
 }
-
-@media (min-width: 1024px) {
-  .header__lang-link {
-    line-height: 28px;
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .header__lang-link {
-    line-height: 28px;
-    font-size: 24px;
-  }
-}

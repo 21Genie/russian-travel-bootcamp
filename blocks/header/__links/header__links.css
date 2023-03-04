@@ -2,6 +2,13 @@
   display: flex;
   margin: 0;
   padding: 0;
+  padding-top: 5px;
   gap: 0 18px;
   list-style: none;
+}
+
+@media (min-width: 768px) {
+  .header__links {
+    padding-top: 17px;
+  }
 }

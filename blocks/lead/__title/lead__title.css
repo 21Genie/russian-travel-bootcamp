@@ -1,6 +1,6 @@
 .lead__title {
   margin: 0;
-  padding: 48px 16px 0 16px;
+  padding: 48px 0 0 0;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -12,15 +12,8 @@
 
 @media (min-width: 768px) {
   .lead__title {
-    padding: 48px 24px 0 24px;
-    font-size: 96px;
-    line-height: 100px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lead__title {
-    padding: 48px 152px 0 152px;
+    max-width: 720px;
+    padding: 48px 0 0 0;
     font-size: 96px;
     line-height: 100px;
   }
@@ -28,9 +21,6 @@
 
 @media (min-width: 1280px) {
   .lead__title {
-    padding: 56px 132px 0 132px;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
+    padding: 56px 0 0 0;
   }
 }

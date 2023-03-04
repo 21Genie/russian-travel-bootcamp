@@ -4,7 +4,6 @@
   gap: 50px;
   margin: 0;
   padding: 0;
-  width: 100vw;
   list-style: none;
 }
 
@@ -24,6 +23,6 @@
 
 @media (min-width: 1280px) {
   .places__list {
-    width: calc(100vw - (148px + 148px));
+    max-width: 984px;
   }
 }

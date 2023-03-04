@@ -5,12 +5,26 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  max-width: 186px;
 }
 
 @media (min-width: 768px) {
   .footer__column-links {
     display: flex;
     flex-direction: row;
+    max-width: 720px;
     gap: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__column-links {
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__column-links {
+    max-width: 1184px;
   }
 }
