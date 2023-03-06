@@ -8,15 +8,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-decoration: none;
-  color: #fff;
+  background-position: center;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   width: 100%;
   min-height: 200px;
   position: relative;
   gap: 16px;
-  min-height: 200px;
-  background-size: cover;
-  background-position: center;
+  color: #fff;
 }
 
 .cover__link:before {

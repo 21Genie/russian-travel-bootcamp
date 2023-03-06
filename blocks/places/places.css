@@ -3,7 +3,6 @@
   flex-direction: column;
   padding-top: 65px;
   margin: 0 auto;
-  padding-top: 64px;
 }
 
 @media (min-width: 768px) {
@@ -23,7 +22,7 @@
 
 @media (min-width: 1280px) {
   .places {
-    width: calc(100% - 2*148px);
+    width: calc(100% - (148px * 2));
   }
 }
 
