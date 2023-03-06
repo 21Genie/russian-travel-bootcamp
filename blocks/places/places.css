@@ -2,29 +2,28 @@
   display: flex;
   flex-direction: column;
   padding-top: 65px;
-  box-sizing: border-box;
   margin: 0 auto;
   padding-top: 64px;
 }
 
 @media (min-width: 768px) {
   .places {
-    width: calc(100% - 2 * 24px);
+    width: calc(100% - (24px * 2));
     padding-top: 88px;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 1024px) {
   .places {
-    width: calc(100% - 2 * 48px);
+    width: calc(100% - (48px * 2));
     padding-top: 92px;
   }
 }
 
 @media (min-width: 1280px) {
   .places {
-    width: calc(100% - 2 * 148px);
-    align-self: center;
+    width: calc(100% - 2*148px);
   }
 }
 
