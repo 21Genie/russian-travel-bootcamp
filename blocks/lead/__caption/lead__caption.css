@@ -11,3 +11,10 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
+@media (min-width: 1024px) {
+  .lead__caption {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

@@ -3,22 +3,27 @@
   flex-direction: column;
   padding-top: 65px;
   box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 64px;
 }
 
 @media (min-width: 768px) {
   .places {
+    width: calc(100% - 2 * 24px);
     padding-top: 88px;
   }
 }
 
 @media (min-width: 1024px) {
   .places {
+    width: calc(100% - 2 * 48px);
     padding-top: 92px;
   }
 }
 
 @media (min-width: 1280px) {
   .places {
+    width: calc(100% - 2 * 148px);
     align-self: center;
   }
 }

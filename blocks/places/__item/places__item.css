@@ -8,13 +8,14 @@
   .places__item {
     display: grid;
     grid-template-columns: 47% 1fr;
+    grid-template-rows: auto;
     gap: 48px 28px;
   }
 }
 
 @media (min-width: 1024px) {
   .places__item {
-    gap: 48px 32px;
+    gap: 48px 35px;
   }
 }
 
