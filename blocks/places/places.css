@@ -9,7 +9,6 @@
   .places {
     width: calc(100% - (24px * 2));
     padding-top: 88px;
-    margin: 0 auto;
   }
 }
 
